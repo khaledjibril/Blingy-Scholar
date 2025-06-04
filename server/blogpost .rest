@@ -1,0 +1,196 @@
+### Create scholarship (admin only)
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "How to Make Good Scholarship Applications",
+  "content": "Hey! If you’re here, you’re probably trying to figure out how to make your scholarship applications stand out — or maybe you’re just stressed about where to start. I totally get it. Scholarships can feel like this huge, confusing thing that requires a ton of work. But honestly? It’s not as scary as it seems once you break it down. I’m going to share some straightforward tips that actually helped me (and tons of others) make better applications — without losing sleep.\n\n1. Don’t Wait Until the Last Minute\n\nI know, I know — life gets busy, and it’s tempting to procrastinate. But trust me, getting a head start is the best thing you can do. Scholarship apps usually need more than just filling out a form — essays, recommendation letters, transcripts… it all adds up.\n\nHere’s a little trick: make a simple checklist with deadlines and what you need to submit. Then set reminders on your phone. This way, you won’t be scrambling at the last minute or missing important details.\n\n2. Figure Out What They Really Want\n\nEvery scholarship has its own “personality.” Some want future scientists, others want community leaders, and some are all about creativity or financial need.\n\nBefore you start writing, take a few minutes to read what the scholarship stands for. Then, think about how your story matches their vibe. This makes your application feel personal and relevant — not just like you copied and pasted the same thing everywhere.\n\n3. Write Like You’re Talking to a Real Person\n\nThe essay part? This is your chance to let your personality shine. Don’t try to sound like a robot or write what you think they want to hear. Write like you would talk to a friend.\n\nUse stories from your life. For example, instead of saying “I’m a hard worker,” tell them about the time you balanced school and a part-time job, or how you kept going even when things got tough.\n\nKeep it simple. Clear, honest writing beats fancy words any day.\n\n4. Choose Your Recommenders Wisely\n\nThe recommendation letters can make a huge difference. Pick people who really know you and can talk about your strengths with examples — teachers, coaches, or supervisors.\n\nAnd be kind to them! Give them plenty of time to write the letter, and share a little about what you’re applying for so they can write something that fits perfectly.\n\n5. Check and Double-Check Everything\n\nTypos, missing pages, or wrong file formats — these little things can ruin an otherwise great application. After you write your essay and fill out forms, take a break, then come back and read everything again.\n\nBetter yet, ask someone else to proofread it too. Fresh eyes catch mistakes you might miss.\n\n6. Follow the Rules (Seriously!)\n\nEvery scholarship comes with its own set of rules. It might sound boring, but following them exactly shows you’re responsible and detail-oriented.\n\nSo, whether it’s a word limit, font size, or submitting online vs. by mail — do what they say. It’s easier than you think to slip up here, so keep a checklist handy.\n\n7. Show Your Passion\n\nRemember: scholarship committees want to support people who are excited about their future. Use your essays and answers to talk about what drives you, what you want to achieve, and why this scholarship is important for you.\n\nLet your enthusiasm come through — it’s contagious!"
+}
+
+### Create blog post for "How to Stand Out in a Sea of Scholarship Applicants"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "How to Stand Out in a Sea of Scholarship Applicants",
+  "content": "Applying for scholarships can sometimes feel like shouting in a crowded room. Thousands of students send in their applications, all hoping to catch the attention of scholarship committees. So, how do you make sure your voice is heard? How do you make your application stand out in a sea of hopefuls?\n\nThe good news is that standing out isn’t about grand gestures or gimmicks — it’s about being authentic, clear, and prepared. Here’s how to create an application that scholarship committees can’t forget.\n\n1. Be Authentic — Let Your Real Story Shine\n\nCommittee members read hundreds of essays and applications. What grabs their attention is honesty and personality. Don’t try to write what you think they want to hear; instead, write what’s true about you. Share your journey, challenges, achievements, and dreams in a way that only you can.\n\nFor example, instead of saying “I am passionate about community service,” share a story: “Last year, I organized a food drive that helped over 100 families in my neighborhood. Seeing the community come together inspired me to pursue social work.” This paints a vivid picture of your commitment.\n\n2. Pay Attention to Details\n\nSmall mistakes can cost you dearly. Missing a document, submitting the wrong file format, or ignoring word limits can cause your application to be discarded without a second glance.\n\nMake a checklist of all requirements and deadlines. Double-check every piece of information before submitting. This attention to detail shows you are responsible and serious about the opportunity.\n\n3. Show Clear Goals and Passion\n\nScholarship committees want to invest in students who have a vision. Use your essays and application materials to clearly express your goals and why this scholarship will help you achieve them. Let your passion come through — enthusiasm is contagious and memorable.\n\n4. Ask for Strong Recommendations\n\nLetters of recommendation can tip the scale in your favor. Choose recommenders who know you well and can speak specifically about your strengths. Provide them with context about the scholarship so they can tailor their letters accordingly.\n\n5. Be Yourself — But Professional\n\nYour application should reflect your personality, but also maintain professionalism. Use clear, respectful language. Avoid slang or overly casual tone. The right balance makes your application approachable and credible.\n\nRemember: The goal is to help the committee see you as a real person they want to support — someone with potential, dedication, and a story worth investing in."
+}
+
+### Create blog post for "Understanding Different Types of Scholarships: Merit, Need-Based, and More"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Understanding Different Types of Scholarships: Merit, Need-Based, and More",
+  "content": "When you start your scholarship search, you’ll quickly notice there’s a huge variety of awards available. Some scholarships require top grades, others focus on financial need, and some are based on background, talents, or specific goals.\n\nUnderstanding the different types of scholarships can help you focus on the ones that fit you best — saving you time and increasing your chances of success.\n\nMerit-Based Scholarships\n\nThese scholarships reward achievements. This could be academic excellence, athletic ability, artistic talent, or leadership. If you’ve consistently earned high grades or received honors, these might be for you.\n\nExample: A scholarship that requires maintaining a GPA of 3.8 or higher, or being a member of your school's varsity sports team.\n\nNeed-Based Scholarships\n\nThese focus on supporting students who have financial barriers to education. Eligibility often requires submitting income documentation or completing forms like FAFSA (in the US).\n\nDon’t hesitate to apply here if money is a concern — many scholarships aim specifically to help students just like you.\n\nDemographic-Based Scholarships\n\nMany scholarships celebrate diversity and inclusion by targeting students from certain backgrounds, such as ethnicity, gender, veterans, or first-generation college students.\n\nFor example, scholarships for African American students, women in STEM, or indigenous communities.\n\nField-Specific Scholarships\n\nPlanning to study engineering? Interested in environmental science? Some scholarships focus on supporting students pursuing certain majors or career paths.\n\nThese can be highly competitive but also very rewarding, as they support your passion and professional goals.\n\nCommunity Service Scholarships\n\nIf you’ve been involved in volunteering or social causes, look for scholarships that honor service. They appreciate commitment to helping others and leadership in your community."
+}
+
+### Create blog post for "How to Write a Compelling Personal Statement"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "How to Write a Compelling Personal Statement",
+  "content": "Your personal statement is often the heart of your scholarship application. It’s where you tell your story, explain your goals, and show who you are beyond grades and test scores.\n\nHere are some tips to make your personal statement stand out:\n\n1. Start Strong\n\nYour opening should grab attention. You can start with a personal anecdote, a question, or a statement that reflects your passion.\n\n2. Be Honest and Reflective\n\nDon’t just list accomplishments. Reflect on what these experiences meant to you and how they shaped your goals.\n\n3. Connect to the Scholarship’s Purpose\n\nShow how your story aligns with what the scholarship is looking for. If it’s for leadership, highlight moments you led and what you learned.\n\n4. Keep it Focused and Clear\n\nStick to the word limit and make every sentence count. Avoid clichés and general statements.\n\n5. Edit and Get Feedback\n\nProofread carefully and ask trusted friends, mentors, or teachers to review your statement.\n\nRemember, this is your chance to make a personal connection with the reviewers. Let your genuine voice come through!"
+}
+
+### Create blog post for "Tips for Getting Strong Letters of Recommendation"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Tips for Getting Strong Letters of Recommendation",
+  "content": "Strong letters of recommendation can make a big difference in your scholarship application. Here’s how to get great ones:\n\n1. Choose the Right People\n\nPick teachers, coaches, or supervisors who know you well and can speak to your strengths.\n\n2. Ask Early\n\nGive your recommenders plenty of time — at least a few weeks if possible.\n\n3. Provide Context\n\nShare the scholarship details and your goals with them. This helps them write a focused letter.\n\n4. Remind Them Politely\n\nA gentle reminder a week before the deadline can be helpful.\n\n5. Say Thank You\n\nShow appreciation for their time and effort.\n\nRemember, a strong recommendation is one that tells a story about you — your character, achievements, and potential."
+}
+### Create blog post for "How to Stay Organized During Scholarship Season"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer <YOUR_AUTH_TOKEN>
+
+{
+  "title": "How to Stay Organized During Scholarship Season",
+  "content": "Scholarship season can be overwhelming — applications, deadlines, essays, documents… it adds up fast. But staying organized is the secret to managing it all without losing your mind. Here’s a simple guide to help you stay on top of everything:\n\n1. Make a Master List\nStart by writing down all the scholarships you're interested in. Include key info like deadlines, requirements, and links.\n\n2. Use a Calendar\nWhether it’s Google Calendar or a wall planner, mark important dates clearly. Set reminders a week or two before each deadline.\n\n3. Create a Scholarship Folder\nUse cloud storage like Google Drive or a physical folder to keep all your materials in one place — transcripts, essays, resumes, etc.\n\n4. Track Your Progress\nMake a spreadsheet to track your progress. Include columns like “Submitted,” “Waiting for Recommendation,” or “Need Essay.”\n\n5. Reuse and Adapt\nYou don’t need to write a brand new essay for every application. Create a few strong base essays and tweak them to fit each scholarship.\n\n6. Schedule Time Each Week\nSet aside regular time for applications. Consistent small efforts are better than cramming everything into one stressful weekend.\n\nStaying organized not only helps you meet deadlines but also makes your applications stronger — because you’ll be less rushed and more thoughtful."
+}
+
+### Create blog post for "Common Scholarship Application Mistakes to Avoid"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Common Scholarship Application Mistakes to Avoid",
+  "content": "Applying for scholarships can be competitive, so it’s important to avoid simple mistakes that could cost you the opportunity. Here are some common pitfalls and how to steer clear of them:\n\n1. Missing Deadlines\nThis is the #1 mistake. Set multiple reminders for each deadline. Submitting early is always better than risking last-minute problems.\n\n2. Ignoring Instructions\nEvery scholarship has specific rules — word limits, file types, formats. Failing to follow them shows you didn’t pay attention.\n\n3. Generic Essays\nDon’t copy and paste the same essay everywhere. Tailor your writing to match each scholarship’s focus.\n\n4. Typos and Errors\nSpelling mistakes and grammar errors can make a bad impression. Proofread carefully, and ask someone else to review your work too.\n\n5. Weak Recommendations\nChoose people who know you well and can write strong, specific letters. Don’t just ask anyone.\n\n6. Leaving Blanks\nIf a section doesn’t apply to you, explain why. Blank fields can make your application look incomplete.\n\nAvoiding these mistakes helps your application shine and shows you’re serious and prepared."
+}
+
+### Create blog post for "How to Find Scholarships That Fit You"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "How to Find Scholarships That Fit You",
+  "content": "The best scholarships aren’t always the biggest or most famous — they’re the ones that actually match your background, goals, and strengths. Here’s how to find the right ones for you:\n\n1. Start Early\nBegin your search as soon as possible. Some deadlines come up quickly or require prep time like recommendation letters or essays.\n\n2. Use Scholarship Search Engines\nWebsites like Fastweb, Scholarships.com, or local portals let you filter by major, location, GPA, and more.\n\n3. Check With Schools\nAsk your school counselor or financial aid office about scholarships specific to your area or institution.\n\n4. Look Locally\nMany community organizations, religious groups, and businesses offer scholarships. These may be less competitive and easier to win.\n\n5. Explore Niche Scholarships\nThere are scholarships for everything from being left-handed to studying a specific subject or being involved in a hobby. If you have a unique trait or experience, search for it.\n\n6. Follow Trusted Sources\nFollow scholarship platforms, nonprofits, and educational pages on social media — they often post updates about new or urgent opportunities.\n\nFinding the right scholarships takes time, but with a smart search strategy, you’ll discover opportunities that actually match who you are."
+}
+
+### Create blog post for "What to Do After You Submit Your Application"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "What to Do After You Submit Your Application",
+  "content": "You’ve finally submitted your scholarship application — congratulations! But your work doesn’t stop here. Here’s what you should do next:\n\n1. Save Confirmation Details\nIf you get a confirmation email or receipt, save it. You might need it later to prove you applied or to check your status.\n\n2. Track Your Applications\nUpdate your spreadsheet or list to mark the submission as complete. Keep notes on when you expect to hear back.\n\n3. Stay Available\nMake sure your email and phone number are working and check them regularly. Respond quickly if the scholarship provider contacts you.\n\n4. Keep Copies of Everything\nSave your essays, forms, and any uploads in case you apply for other scholarships or need to make changes.\n\n5. Move On to the Next\nWhile you wait for results, keep applying to other scholarships. Don’t stop your search — one success doesn’t mean the journey is over.\n\n6. Stay Positive\nSome scholarships are very competitive. If you don’t get one, don’t be discouraged. Each application improves your skills and brings you closer to the next win."
+}
+
+### Create blog post for "Balancing Scholarship Applications with School and Life"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Balancing Scholarship Applications with School and Life",
+  "content": "Juggling schoolwork, family, jobs, and applying for scholarships can feel like too much. But with some planning and self-care, you can make it work. Here’s how:\n\n1. Set Priorities\nYou can’t do everything at once. Focus on the most urgent deadlines and high-value scholarships first.\n\n2. Make a Weekly Plan\nUse a planner or calendar to schedule time for applications. Even 1–2 hours a few times a week adds up.\n\n3. Break It Into Chunks\nDon’t try to write an entire essay in one sitting. Outline one day, write the next, edit later. Small steps reduce stress.\n\n4. Say No When You Need To\nIf you’re overwhelmed, it’s okay to turn down extra responsibilities or skip less important events.\n\n5. Take Breaks and Recharge\nDon’t forget to rest. Watch a show, go for a walk, or hang out with friends. Burnout won’t help you win anything.\n\n6. Ask for Support\nLet teachers, family, or friends know what you’re working on. They might help proofread, remind you of deadlines, or just cheer you on.\n\nBalance is about giving yourself grace — do what you can, when you can, and trust the process."
+}
+### Create blog post for "The Importance of Recommendation Letters in Scholarship Applications"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "The Importance of Recommendation Letters in Scholarship Applications",
+  "content": "A great recommendation letter can make a big difference in your scholarship application. It's not just about what you say — it's also about what others say about you. Here’s why it matters and how to make the most of it:\n\n1. Adds Credibility\nRecommendation letters give your application a second voice, confirming your strengths from someone who knows you well.\n\n2. Shows Character and Work Ethic\nA strong letter doesn’t just list achievements — it highlights your attitude, motivation, and how you handle challenges.\n\n3. Offers a Personal Touch\nWhile your resume and essay are formal, a recommendation letter adds personality and context that makes your story feel real.\n\nTips for Great Letters:\n\n- Ask the Right People\nChoose teachers, mentors, or supervisors who know you well and can speak to your abilities and growth.\n\n- Ask Early\nGive them enough time to write something thoughtful — at least 2–3 weeks in advance.\n\n- Provide Info\nShare your goals, achievements, and details about the scholarship so they can tailor the letter.\n\n- Say Thank You\nA simple thank you note shows appreciation and professionalism.\n\nStrong recommendations can set you apart, so treat them as a key part of your application strategy."
+}
+
+### Create blog post for "Scholarship Interviews: How to Prepare and Impress"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Scholarship Interviews: How to Prepare and Impress",
+  "content": "If you’re invited to a scholarship interview — congrats! That means you’ve made it to the final round. Now it’s time to prepare and leave a great impression. Here’s how:\n\n1. Know Your Application\nReview what you submitted — they might ask about your essay, achievements, or goals.\n\n2. Research the Scholarship\nUnderstand the mission of the organization and the purpose of the scholarship. Align your answers with their values.\n\n3. Practice Common Questions\nPrepare for questions like: Tell us about yourself. Why do you deserve this scholarship? What are your future plans?\n\n4. Dress Neatly\nWhether in person or virtual, dress professionally to show you’re taking it seriously.\n\n5. Be Honest and Clear\nYou don’t have to be perfect — just be genuine. Speak clearly, and don’t rush your answers.\n\n6. Ask Questions\nAt the end, asking thoughtful questions shows interest and maturity.\n\n7. Follow Up\nSend a thank-you email afterward. It shows appreciation and keeps you memorable.\n\nA strong interview can be the final push that wins you the scholarship — so practice, prepare, and show them your best self."
+}
+
+### Create blog post for "Do's and Don'ts of Writing a Scholarship Essay"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Do's and Don'ts of Writing a Scholarship Essay",
+  "content": "Your essay is one of the most powerful parts of your scholarship application. Here’s a quick guide on what to do — and what to avoid — to write an essay that stands out.\n\nDO:\n- Start Strong\nGrab attention in the first sentence. A powerful hook keeps readers interested.\n\n- Be Personal\nShare your story. Judges want to hear your voice and understand what drives you.\n\n- Stay Focused\nStick to the prompt. Don’t drift into unrelated stories or vague points.\n\n- Edit Carefully\nRevise multiple times. Fix typos, awkward sentences, and unclear ideas.\n\nDON’T:\n- Copy from Others\nAvoid clichés or copying generic essays online. Authenticity matters.\n\n- Brag Too Much\nHighlight achievements humbly. Balance confidence with sincerity.\n\n- Overdo the Drama\nYou can share challenges, but avoid sounding like you're trying too hard to be emotional.\n\n- Ignore the Word Count\nToo short or too long could hurt your chances. Follow instructions exactly.\n\nA good essay is honest, focused, and memorable. Follow these tips to tell your story in a way that connects with readers."
+}
+
+### Create blog post for "How to Build a Strong Academic Resume for Scholarships"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "How to Build a Strong Academic Resume for Scholarships",
+  "content": "An academic resume (or CV) is a snapshot of your achievements — and a key part of many scholarship applications. Here’s how to make yours stand out:\n\n1. Keep It Clear and Simple\nUse clean formatting and bullet points. Make it easy to read quickly.\n\n2. Start With Your Info\nBegin with your name, contact details, school name, and expected graduation date.\n\n3. Highlight Academics\nInclude GPA, class rank (if applicable), and any honors or AP/IB courses.\n\n4. Include Activities and Leadership\nMention school clubs, sports, volunteering, and leadership roles. Focus on your impact.\n\n5. Add Awards and Achievements\nList scholarships, competitions, or honors you’ve received — big or small.\n\n6. Don’t Forget Skills and Interests\nLanguages, software tools, and hobbies can make your resume more well-rounded.\n\n7. Keep It to One Page\nUnless the application asks for more, stick to a single, polished page.\n\nTip: Tailor your resume slightly for different scholarships, especially if they value certain qualities like leadership, service, or academic excellence.\n\nA strong academic resume tells your story at a glance — make it count!"
+}
+
+### Create blog post for "Time Management Tips for Scholarship Seekers"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Time Management Tips for Scholarship Seekers",
+  "content": "Between classes, personal life, and applying for scholarships, time can slip away fast. Mastering time management can help you stay productive and reduce stress. Here are some helpful tips:\n\n1. Set Clear Goals\nWrite down how many scholarships you want to apply for each week or month. Goals give direction.\n\n2. Use a Planner or App\nSchedule deadlines, reminders, and work sessions. Apps like Notion, Google Calendar, or Todoist can help.\n\n3. Break Tasks Into Steps\nDon’t list “Apply for scholarship” — break it down into research, draft essay, get recommendation, and submit.\n\n4. Prioritize\nStart with scholarships that have the closest deadlines or highest value.\n\n5. Avoid Multitasking\nFocus on one task at a time for better quality and less stress.\n\n6. Set Time Limits\nUse a timer to stay on track. Try 25-minute work blocks with short breaks in between (Pomodoro method).\n\n7. Review Weekly\nAt the end of each week, check what you’ve done and adjust your plans for the next.\n\nTime management isn’t about doing more — it’s about doing what matters most, efficiently."
+}
+### Create blog post for "Crafting an Effective CV for Scholarship Applications"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Crafting an Effective CV for Scholarship Applications",
+  "content": "When applying for scholarships, your CV (Curriculum Vitae) is one of the first impressions you make. It highlights your academic achievements, leadership roles, skills, and extracurriculars. Here's how to make it impactful:\n\n1. Use a Clean Format\nKeep it neat and organized. Use consistent fonts, spacing, and headers to make it easy to scan.\n\n2. Include Basic Information\nStart with your full name, contact info, school, degree program, and expected graduation date.\n\n3. Highlight Academic Achievements\nInclude your GPA, honors, class rank (if available), and relevant coursework.\n\n4. List Extracurricular Activities\nClubs, volunteering, sports, and leadership positions show your engagement and character.\n\n5. Showcase Awards & Certifications\nMention any scholarships, academic honors, or certifications you’ve received.\n\n6. Add Skills and Languages\nTechnical skills, languages, or creative abilities can enhance your profile.\n\n7. Tailor Your CV\nAdjust it for each scholarship, focusing on what the provider values — like community service or academic excellence.\n\nRemember: a great CV is concise (1 page is ideal), relevant, and a clear summary of your potential."
+}
+
+### Create blog post for "How to Get Strong Recommendation Letters for Scholarships"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "How to Get Strong Recommendation Letters for Scholarships",
+  "content": "Recommendation letters can add great weight to your scholarship application. They give credibility and a personal perspective on your strengths. Here’s how to get excellent ones:\n\n1. Choose the Right People\nPick teachers, mentors, or supervisors who know you well and can speak positively about your academic and personal qualities.\n\n2. Ask Early\nGive at least 2–3 weeks' notice. Rushing them can result in a generic or weaker letter.\n\n3. Provide Key Details\nShare your resume, goals, achievements, and scholarship info so they can tailor the letter.\n\n4. Be Clear About the Deadline\nMention when it’s due and how/where it should be submitted.\n\n5. Follow Up Respectfully\nCheck in with a reminder if the deadline is near — always politely.\n\n6. Say Thank You\nSend a thank-you message or card. It leaves a good impression and shows maturity.\n\nA strong recommendation letter highlights your work ethic, character, and suitability for the scholarship — so handle it professionally."
+}
+
+### Create blog post for "Writing a Statement of Purpose for Scholarships"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Writing a Statement of Purpose for Scholarships",
+  "content": "A Statement of Purpose (SOP) is a personal essay that explains why you're applying for a scholarship, your academic goals, and your future plans. It’s your chance to show passion and purpose. Here’s how to write one:\n\n1. Start With Your Background\nBriefly explain your academic journey, interests, and what led you to your field of study.\n\n2. Explain Your Goals\nWhat are your short-term and long-term goals? How will the scholarship help you achieve them?\n\n3. Show Why You're a Good Fit\nHighlight your strengths and experiences that align with the scholarship’s purpose.\n\n4. Be Personal and Honest\nUse a genuine tone. Let your personality and motivation shine through.\n\n5. Stay Focused and Clear\nAvoid rambling. Keep it within the word limit and stick to key points.\n\n6. Revise Thoroughly\nEdit multiple times to remove errors and improve clarity.\n\nTip: Read it aloud. It helps catch awkward phrasing and keeps the flow natural.\n\nA strong SOP connects your story with your goals — and makes the scholarship committee believe in your journey."
+}
+
+### Create blog post for "Difference Between a CV and a Personal Statement for Scholarships"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Difference Between a CV and a Personal Statement for Scholarships",
+  "content": "When applying for scholarships, you may be asked to submit both a CV and a personal statement. Though they seem similar, they serve different purposes. Here’s a breakdown:\n\n1. CV (Curriculum Vitae):\n- Structured and bullet-pointed\n- Lists achievements, education, skills, and experiences\n- Objective and factual\n- One page (ideally)\n\n2. Personal Statement:\n- Narrative and essay-style\n- Explains your motivation, goals, and story\n- Subjective and reflective\n- Typically 500–1,000 words\n\nWhen to Use Each:\n- Use the CV to show your qualifications at a glance.\n- Use the personal statement to show who you are behind the grades.\n\nTogether, they give the full picture: the CV tells them what you’ve done, and the personal statement tells them why it matters."
+}
+
+### Create blog post for "Common Mistakes to Avoid When Applying for Scholarships"
+POST http://localhost:5000/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MzUyMDc1LCJleHAiOjE3NDg5NTY4NzV9.ydWFGK0XHfnmwS--FgUsPdNTBk5abSWcxfUFfXEd3zU
+
+{
+  "title": "Common Mistakes to Avoid When Applying for Scholarships",
+  "content": "Applying for scholarships takes time and effort — but one mistake could cost you a great opportunity. Here are some common errors to avoid:\n\n1. Missing the Deadline\nEven a great application won’t count if it’s late. Set reminders and submit early.\n\n2. Ignoring Instructions\nAlways follow word counts, formatting rules, and required documents.\n\n3. Using a Generic Essay\nTailor each essay to the specific scholarship. Avoid copy-pasting the same text everywhere.\n\n4. Forgetting to Proofread\nTypos and grammar mistakes show carelessness. Review your application multiple times.\n\n5. Submitting Incomplete Applications\nDouble-check that all fields, files, and signatures are included before you hit submit.\n\n6. Choosing Weak References\nAsk people who genuinely know you and can speak positively about your qualities.\n\n7. Waiting Too Long\nStart early. Scholarships take time, and rushing often leads to errors or missed chances.\n\nAvoiding these simple mistakes can greatly increase your chances of success. Take your time, follow instructions, and submit confidently!"
+}

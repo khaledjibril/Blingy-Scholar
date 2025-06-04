@@ -1,0 +1,27 @@
+### Register a new user
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Khaled",
+  "email": "Khaled@gmail.com",
+  "password": "mypassword",
+  "role": "admin"
+}
+
+###
+
+### Login user
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "Khaled@gmail.com",
+  "password": "mypassword"
+}
+
+###
+
+### Get user profile (authenticated)
+GET http://localhost:5000/api/auth/me
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4OTY5MDY1LCJleHAiOjE3NDk1NzM4NjV9.hZ-tgmYMP7hS5YJxyMO_qDl7HO7JESzwIB80hR0M8cM

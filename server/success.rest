@@ -1,0 +1,25 @@
+POST http://localhost:5000/api/success-stories
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4OTY5MDY1LCJleHAiOjE3NDk1NzM4NjV9.hZ-tgmYMP7hS5YJxyMO_qDl7HO7JESzwIB80hR0M8cM
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="title"
+
+How Blingy Scholar came through for me
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="content"
+
+Completing my degree in Computer Science at Bayero University Kano (BUK) was a huge milestone for me. After graduation, I wanted to explore further opportunities to grow and learn. Applying for scholarships felt overwhelming, and I wasn’t sure how to make my application stand out.
+
+Thankfully, Blingy Scholar was there to guide me through the entire process. Their mentorship and clear, practical advice gave me the confidence and tools I needed to apply for scholarships successfully. With their support, I was able to secure a scholarship to study at the Massachusetts Institute of Technology (MIT), a truly life-changing opportunity. They helped me understand what selectors look for and supported me every step of the way. Without Blingy Scholar’s help, this chance might never have happened.
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="author_name"
+
+Hamzat Abdulroqib
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="author_photo"; filename="abdul.jpeg"
+Content-Type: image/jpeg
+
+< ./public/abdul.jpeg
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

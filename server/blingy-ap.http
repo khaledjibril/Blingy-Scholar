@@ -1,0 +1,50 @@
+### Get all scholarships (public)
+GET http://localhost:5000/api/scholarships
+
+###
+
+### Get scholarship by ID (public)
+GET http://localhost:5000/api/scholarships/1
+
+###
+
+### Create scholarship (admin only)
+POST http://localhost:5000/api/scholarships
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4OTY5MDY1LCJleHAiOjE3NDk1NzM4NjV9.hZ-tgmYMP7hS5YJxyMO_qDl7HO7JESzwIB80hR0M8cM
+
+{
+  "title": "Blings International Merit Scholarship",
+  "description": "Awarded to students showing academic excellence and leadership.",
+  "deadline": "2025-08-01",
+  "amount": 5000,
+  "eligibility": "Open to all undergraduate students with a GPA of 3.5 and above.",
+  "link": "https://blingyscholar.com/scholarships/blings-merit"
+}
+
+### Update scholarship (admin only)
+SPUT http://localhost:5000/api/scholarships/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MDEzMjYxLCJleHAiOjE3NDg2MTgwNjF9.RSURa_L8puWELu5vVbHkxyY90TIG-aoxG6zmgjsJzFI
+
+{
+  "title": "Updated Scholarship Title"
+}
+
+###
+
+### Delete scholarship (admin only)
+DELETE http://localhost:5000/api/scholarships/1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MDEzMjYxLCJleHAiOjE3NDg2MTgwNjF9.RSURa_L8puWELu5vVbHkxyY90TIG-aoxG6zmgjsJzFI
+
+###
+
+### Save scholarship (regular user)
+POST http://localhost:5000/api/scholarships/2/save
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MDEzMjYxLCJleHAiOjE3NDg2MTgwNjF9.RSURa_L8puWELu5vVbHkxyY90TIG-aoxG6zmgjsJzFI
+
+###
+
+### Unsave scholarship (regular user)
+DELETE http://localhost:5000/api/scholarships/2/save
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwiZW1haWwiOiJLaGFsZWRAZ21haWwuY29tIiwiaWF0IjoxNzQ4MDEzMjYxLCJleHAiOjE3NDg2MTgwNjF9.RSURa_L8puWELu5vVbHkxyY90TIG-aoxG6zmgjsJzFI

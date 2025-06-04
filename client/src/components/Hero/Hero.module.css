@@ -1,0 +1,237 @@
+.heroWrapper {
+  position: relative;
+  width: 100%;
+  min-height: 80vh;
+  overflow: hidden;
+}
+
+.heroSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Each swiper slide (the hero with background image) */
+.hero {
+  width: 100%;
+  min-height: 80vh;
+  padding: 4rem 1.5rem 2rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 32px rgba(35, 64, 120, 0.07);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  transition: background-image 0.65s cubic-bezier(.4,0,.2,1);
+}
+
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  z-index: 0;
+  border-radius: inherit;
+  transition: background 0.5s;
+}
+
+/* Text styles */
+.hero h1 {
+  font-size: 2.8rem;
+  color: #FFC857;
+  margin-bottom: 1rem;
+  font-weight: 900;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  z-index: 2;
+  position: relative;
+  animation: fadeUp 0.9s cubic-bezier(.23,1.02,.56,.96);
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px);}
+  to { opacity: 1; transform: none;}
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+  max-width: 540px;
+  color: #FFE;
+  z-index: 2;
+  text-align: center;
+  position: relative;
+}
+
+.socialProof {
+  color: #FFD700;
+  font-weight: 600;
+  margin-bottom: 2.2rem;
+  font-size: 1.08rem;
+  letter-spacing: 0.02em;
+  text-shadow: 0 1px 3px #23407855;
+  animation: fadeUp 1.3s cubic-bezier(.23,1.02,.56,.96);
+}
+
+.centeredParagraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; 
+  text-align: center;
+  margin: auto;
+  animation: fadeUp 1.1s cubic-bezier(.23,1.02,.56,.96);
+}
+
+.content {
+  max-width: 1500px;
+  margin: 0 auto;
+  z-index: 2;
+  position: relative;
+  backdrop-filter: blur(1.3px);
+  background: rgba(35, 64, 120, 0.12);
+  border-radius: 16px;
+  padding: 2rem 3rem 2.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fadeUp 0.9s cubic-bezier(.23,1.02,.56,.96);
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 0.9rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.btnPrimary {
+  background: #FFC857;
+  color: #234078;
+  padding: 0.85rem 2.2rem;
+  border-radius: 24px;
+  font-weight: 700;
+  box-shadow: 0 2px 6px rgba(35,64,120,0.08);
+  border: none;
+  margin-right: 0.1rem;
+  transition: background 0.2s, color 0.2s;
+  text-decoration: none;
+  font-size: 1.02rem;
+}
+
+.btnPrimary:hover,
+.btnPrimary:focus {
+  background: #fff;
+  color: #234078;
+  outline: 2px solid #FFC857;
+}
+
+.btnSecondary {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 0.8rem 2.1rem;
+  border-radius: 24px;
+  font-weight: 700;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+  text-decoration: none;
+  font-size: 1.02rem;
+}
+
+.btnSecondary:hover,
+.btnSecondary:focus {
+  background: #fff;
+  color: #234078;
+  border-color: #FFC857;
+  outline: 2px solid #FFC857;
+}
+
+/* Scroll down icon */
+.scrollDown {
+  position: absolute;
+  left: 50%;
+  bottom: 2.7rem;
+  transform: translateX(-50%);
+  font-size: 2.3rem;
+  color: #FFC857cc;
+  animation: bounceDown 1.7s infinite;
+  z-index: 3;
+}
+
+@keyframes bounceDown {
+  0%, 100% { transform: translate(-50%, 0);}
+  50% { transform: translate(-50%, 16px);}
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .content {
+    padding: 1.2rem 1rem;
+  }
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2.3rem 0.3rem 1.2rem;
+    min-height: 65vh;
+  }
+  .content {
+    padding: 0.7rem 0.6rem;
+    border-radius: 10px;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+  .centeredParagraph,
+  .socialProof {
+    font-size: 0.97rem;
+  }
+  .buttonGroup {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+  }
+  .btnPrimary,
+  .btnSecondary {
+    padding: 0.5rem 1.2rem;
+    font-size: 0.97rem;
+  }
+}
+/* ...keep all your existing styles... */
+
+.hero {
+  width: 100%;
+  min-height: 80vh;
+  padding: 15rem 1.7rem 2.5rem; /* Increased top padding for downward shift */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 32px rgba(35, 64, 120, 0.07);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  transition: background-image 0.65s cubic-bezier(.4,0,.2,1);
+}
+
+/* Responsive adjustment for mobile */
+@media (max-width: 600px) {
+  .hero {
+    padding: 4.5rem 0.3rem 1.2rem; /* Also increase top padding on mobile */
+    min-height: 65vh;
+  }
+  /* ...keep your other mobile styles... */
+}

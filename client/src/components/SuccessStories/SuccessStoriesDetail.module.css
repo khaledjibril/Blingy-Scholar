@@ -1,0 +1,58 @@
+.container {
+  max-width: 700px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.backLink {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.backLink:hover {
+  text-decoration: underline;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.author {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.avatarWrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.videoWrap {
+  margin: 1rem 0;
+}
+
+.video {
+  border-radius: 8px;
+}
+
+.content {
+  font-size: 1rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+}
